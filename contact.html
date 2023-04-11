@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .contactMe {
+        justify-content: center;
+        align-items: center;
+        flex-basis: calc(33.33% - 20px);
+        padding: 10px;
+      }
+      .ContactMeForm {
+        flex-basis: calc(33.33% - 20px);
+        padding: 10px;
+        margin-bottom: 2%;
+      }
+      .ContactHeader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+      }
+      form {
+        width: 50%;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 2%;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: rgb(85, 84, 84);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1 class="ContactHeader">Contact Form</h1>
+      <div class="container">
+        <div class="ContactMeForm">
+          <p>
+            Use the contact form below to send me a message directly from this
+            website. Please fill out all fields and provide as much detail as
+            possible about your inquiry. I'll get back to you as soon as I can.
+            Thank you again for your interest, and I look forward to hearing
+            from you soon!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <title id="form">My Form</title>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+    <footer>
+      <p>Luis Nunez Personal Website</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

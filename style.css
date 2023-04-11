@@ -1,10 +1,7 @@
 /* CSS for the header */
 body {
-  height: 100%;
-}
-
-body {
   font-family: Arial, sans-serif;
+  height: 100%;
   font-size: 16px;
   line-height: 1.5;
   min-height: 100vh;
@@ -14,12 +11,6 @@ body {
 
 header {
   background-color: #383838;
-  color: #fff;
-  padding: 20px;
-}
-
-header {
-  background-color: #333;
   color: #fff;
   padding: 20px;
 }
